@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scholarships@MRPS</title>
+    <style>
+      form{
+        margin: 5%;
+        padding: 5%;
+      }
+      .alertBox{
+        padding: 2%;
+        margin-top: 3%;
+      }
+      .form-check{
+        padding-left: 5em;
+      }
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="alert alert-danger" role="alert" id="alertBox">
+      The eligiblity may be different for different students. This can be
+      confirmed in the school itself with all your documnets.
+    </div>
+    <form action="">
+      <h2> Information </h2>
+      <div class="input-group flex-nowrap">
+        
+        <span class="input-group-text" id="addon-wrapping">Name</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter your Name"
+          aria-label="Enter your Name"
+          aria-describedby="addon-wrapping"
+        />
+
+        <span class="input-group-text" id="addon-wrapping">Father's Name</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Father's Name"
+          aria-label="Father's Name"
+          aria-describedby="addon-wrapping"
+        />
+      </div>
+      <div id="Category">
+        <span><p>Category</p></span>
+        <div style="display: flex;"><div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" >
+          <label class="form-check-label" for="flexRadioDefault1">
+            None
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+          <label class="form-check-label" for="flexRadioDefault1">
+            OBC
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+          <label class="form-check-label" for="flexRadioDefault1">
+            SC/ST
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+          <label class="form-check-label" for="flexRadioDefault1">
+            General
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" >
+          <label class="form-check-label" for="flexRadioDefault2">
+            Muslim
+          </label>
+        </div>
+      </div>
+        </div>
+      </div>
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
